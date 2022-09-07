@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/nasalization');
+
+.stack-badge {
+    font-family: 'Nasalization Rg';
+    background-color: #535353;
+    padding: .1em .9em;
+    margin: 0 .4em;
+    border-radius: .2em;
+}
+
+.badge-text {
+    font-size: .5em;
+}

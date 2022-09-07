@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Vazir Black";
+    src: url("../fonts/VAZIR-BLACK.TTF") format("ttf"),
+}
+@font-face {
+    font-family: "Vazir Medium";
+    src: url("../fonts/VAZIR-MEDIUM.TTF") format("ttf"),
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero img {
+    width: 14em;
+    height: 15em;
+}
+
+.top-section {
+    text-align: right;
+}
+
+.intro {
+    font-family: "Vazir Black";
+    font-size: 1.6em;
+    position: absolute;
+}
+
+.job-title {
+    position: relative;
+    top: 2.4em;
+    right: -1.1em;
+    padding: 1em 0;
+    margin-bottom: 3em;
+    font-family: "Vazir Medium";
+    color: #ACACAC;
+    font-size: .91em;
+}
+
+.badges {
+    position: relative;
+    right: -.5em;
+    top: -.9em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttons {
+    position: relative;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-btn {
+    text-decoration: none;
+    background-color: #646FEF;
+    color: #fff;
+    border-radius: .3em;
+    padding: .6em 1em;
+    font-family: "Vazir Medium";
+    font-size: .8em;
+    position: relative;
+    right: -1.45em;
+    top: -1em;
+}
+
+.download-cv-btn {
+}
